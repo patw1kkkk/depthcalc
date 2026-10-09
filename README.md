@@ -10,9 +10,25 @@
 
 DepthCalc is an open-source toolkit for creating bathymetric lake maps from GPS + depth measurements. Use DepthCalc Capture to collect measurements on the lake and DepthCalc Studio to turn those measurements into coverage visualizations and bathymetric contour maps.
 
+Especially useful if you have a boat with a fish finder, or a handheld depth sounder, and want to create your own lake depth map. Read the depth from your sounder and enter it in Capture; your phone supplies the GPS position. No direct hardware integration is required.
+
 **Capture on the lake → Export session CSV → Import sessions into Studio → Analyze coverage → Generate a chart → Export PDF or PNG.**
 
 Two static, client-side applications. No account, application server, cloud database, Google Sheets, Supabase, or GPT service. Your survey data stays in your browser unless you export a file. Built with TypeScript, React and Vite. All depth calculations run on your device.
+
+## In action
+
+### Find the gaps in your survey
+
+Coverage shows where soundings are dense and where more measurements are needed. This example uses the real Käyrälampi shoreline with synthetic depth measurements.
+
+![Demo survey coverage with dense boat passes and less-surveyed areas](docs/images/demo-coverage.png)
+
+### Record soundings on your phone
+
+An active Capture session with seven synthetic soundings. GPS accuracy, session time, measurement count and distance from the previous point stay visible above the map.
+
+<img src="docs/images/capture-session.png" alt="Capture mobile screen during an active demo session with seven saved measurements" width="390" />
 
 ## Run locally
 
