@@ -1,0 +1,15 @@
+DepthCalc GitHub edition
+
+Adapted from the existing DepthCalc application supplied in this workspace.
+Geometry, projection, coverage, IDW, OSM lake selection, map rendering,
+cartographic labels, and PDF export were reused or adapted. See
+ docs/IMPLEMENTATION.md for provenance and deliberate differences.
+
+OpenStreetMap data: © OpenStreetMap contributors, ODbL.
+https://www.openstreetmap.org/copyright
+Map tiles are requested directly from https://tile.openstreetmap.org.
+Shorelines are requested directly from https://overpass-api.de.
+These services and their data are not covered by this application's MIT license.
+
+Third-party packages (including React, jsPDF, osmtogeojson, Lucide and Vite)
+retain their own licenses. package-lock.json records the dependency tree.

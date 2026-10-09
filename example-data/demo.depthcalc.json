@@ -1,0 +1,2574 @@
+{
+  "format": "depthcalc-project",
+  "version": 1,
+  "lake": {
+    "id": "demo-lake",
+    "name": "Example Lake (synthetic)",
+    "boundary": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            24.125360153016228,
+            61.1235
+          ],
+          [
+            24.125351195871023,
+            61.12361006236562
+          ],
+          [
+            24.125324410697612,
+            61.1237190647705
+          ],
+          [
+            24.12528005545186,
+            61.12382595746188
+          ],
+          [
+            24.125218557299032,
+            61.12392971100472
+          ],
+          [
+            24.125140508499953,
+            61.12402932619568
+          ],
+          [
+            24.125046660707223,
+            61.124123843686014
+          ],
+          [
+            24.124937917726395,
+            61.12421235322063
+          ],
+          [
+            24.124815326811817,
+            61.12429400240431
+          ],
+          [
+            24.12468006858101,
+            61.1243680049108
+          ],
+          [
+            24.124533445644676,
+            61.12443364805549
+          ],
+          [
+            24.124376870061845,
+            61.12449029965903
+          ],
+          [
+            24.124211849740973,
+            61.1245374141355
+          ],
+          [
+            24.12403997391796,
+            61.12457453774673
+          ],
+          [
+            24.123862897850934,
+            61.12460131297207
+          ],
+          [
+            24.123682326879226,
+            61.12461748195144
+          ],
+          [
+            24.1235,
+            61.12462288896874
+          ],
+          [
+            24.123317673120773,
+            61.12461748195144
+          ],
+          [
+            24.123137102149066,
+            61.12460131297207
+          ],
+          [
+            24.12296002608204,
+            61.12457453774673
+          ],
+          [
+            24.122788150259026,
+            61.1245374141355
+          ],
+          [
+            24.122623129938155,
+            61.12449029965903
+          ],
+          [
+            24.122466554355324,
+            61.12443364805549
+          ],
+          [
+            24.12231993141899,
+            61.1243680049108
+          ],
+          [
+            24.122184673188183,
+            61.12429400240431
+          ],
+          [
+            24.122062082273604,
+            61.12421235322063
+          ],
+          [
+            24.121953339292777,
+            61.124123843686014
+          ],
+          [
+            24.121859491500047,
+            61.12402932619568
+          ],
+          [
+            24.121781442700968,
+            61.12392971100472
+          ],
+          [
+            24.12171994454814,
+            61.12382595746188
+          ],
+          [
+            24.121675589302388,
+            61.1237190647705
+          ],
+          [
+            24.121648804128977,
+            61.12361006236562
+          ],
+          [
+            24.121639846983772,
+            61.1235
+          ],
+          [
+            24.121648804128977,
+            61.12338993763438
+          ],
+          [
+            24.121675589302388,
+            61.1232809352295
+          ],
+          [
+            24.12171994454814,
+            61.12317404253812
+          ],
+          [
+            24.121781442700968,
+            61.12307028899528
+          ],
+          [
+            24.121859491500047,
+            61.12297067380432
+          ],
+          [
+            24.121953339292777,
+            61.122876156313986
+          ],
+          [
+            24.122062082273604,
+            61.12278764677937
+          ],
+          [
+            24.122184673188183,
+            61.12270599759569
+          ],
+          [
+            24.12231993141899,
+            61.1226319950892
+          ],
+          [
+            24.122466554355324,
+            61.122566351944506
+          ],
+          [
+            24.122623129938155,
+            61.12250970034097
+          ],
+          [
+            24.122788150259026,
+            61.1224625858645
+          ],
+          [
+            24.12296002608204,
+            61.12242546225327
+          ],
+          [
+            24.123137102149066,
+            61.12239868702793
+          ],
+          [
+            24.123317673120773,
+            61.12238251804856
+          ],
+          [
+            24.1235,
+            61.12237711103126
+          ],
+          [
+            24.123682326879226,
+            61.12238251804856
+          ],
+          [
+            24.123862897850934,
+            61.12239868702793
+          ],
+          [
+            24.12403997391796,
+            61.12242546225327
+          ],
+          [
+            24.124211849740973,
+            61.1224625858645
+          ],
+          [
+            24.124376870061845,
+            61.12250970034097
+          ],
+          [
+            24.124533445644676,
+            61.122566351944506
+          ],
+          [
+            24.12468006858101,
+            61.1226319950892
+          ],
+          [
+            24.124815326811817,
+            61.12270599759569
+          ],
+          [
+            24.124937917726395,
+            61.12278764677937
+          ],
+          [
+            24.125046660707223,
+            61.122876156313986
+          ],
+          [
+            24.125140508499953,
+            61.12297067380432
+          ],
+          [
+            24.125218557299032,
+            61.12307028899528
+          ],
+          [
+            24.12528005545186,
+            61.12317404253812
+          ],
+          [
+            24.125324410697612,
+            61.1232809352295
+          ],
+          [
+            24.125351195871023,
+            61.12338993763438
+          ],
+          [
+            24.125360153016228,
+            61.1235
+          ]
+        ]
+      ]
+    },
+    "createdAt": "2026-09-23T10:00:00Z"
+  },
+  "sessions": [
+    {
+      "id": "demo-session-1",
+      "lakeId": "demo-lake",
+      "name": "Synthetic session 1",
+      "startedAt": "2026-09-22T10:00:00Z",
+      "endedAt": "2026-09-22T10:15:44Z"
+    },
+    {
+      "id": "demo-session-2",
+      "lakeId": "demo-lake",
+      "name": "Synthetic session 2",
+      "startedAt": "2026-09-23T10:00:00Z",
+      "endedAt": "2026-09-23T10:30:08Z"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "demo-0",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:00Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.12260712655221,
+      "depth": 3.3,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-1",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:08Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.12283034491416,
+      "depth": 4.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-2",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:16Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.123053563276105,
+      "depth": 5.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-3",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:24Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.123276781638054,
+      "depth": 6.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-4",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:32Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.1235,
+      "depth": 6.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-5",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:40Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.123723218361945,
+      "depth": 6.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-6",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:48Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.123946436723894,
+      "depth": 5.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-7",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:00:56Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.12416965508584,
+      "depth": 4.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-8",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:01:04Z",
+      "latitude": 61.122637621272006,
+      "longitude": 24.12439287344779,
+      "depth": 3.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-9",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:01:12Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.122160689828316,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-10",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:01:20Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.122383908190265,
+      "depth": 5.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-11",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:01:28Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.12260712655221,
+      "depth": 6.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-12",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:01:36Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.12283034491416,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-13",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:01:44Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.123053563276105,
+      "depth": 8.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-14",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:01:52Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.123276781638054,
+      "depth": 9.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-15",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:00Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.1235,
+      "depth": 9.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-16",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:08Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.123723218361945,
+      "depth": 9.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-17",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:16Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.123946436723894,
+      "depth": 8.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-18",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:24Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.12416965508584,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-19",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:32Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.12439287344779,
+      "depth": 6.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-20",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:40Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.124616091809735,
+      "depth": 5.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-21",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:48Z",
+      "latitude": 61.12285321595401,
+      "longitude": 24.124839310171684,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-22",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:02:56Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.12193747146637,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-23",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:03:04Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.122160689828316,
+      "depth": 5.3,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-24",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:03:12Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.122383908190265,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-25",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:03:20Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.12260712655221,
+      "depth": 9.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-26",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:03:28Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.12283034491416,
+      "depth": 10.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-27",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:03:36Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.123053563276105,
+      "depth": 11.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-28",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:03:44Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.123276781638054,
+      "depth": 11.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-29",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:03:52Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.1235,
+      "depth": 12.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-30",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:00Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.123723218361945,
+      "depth": 11.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-31",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:08Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.123946436723894,
+      "depth": 11.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-32",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:16Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.12416965508584,
+      "depth": 10.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-33",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:24Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.12439287344779,
+      "depth": 9.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-34",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:32Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.124616091809735,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-35",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:40Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.124839310171684,
+      "depth": 5.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-36",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:48Z",
+      "latitude": 61.123068810636006,
+      "longitude": 24.12506252853363,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-37",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:04:56Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.12193747146637,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-38",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:05:04Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.122160689828316,
+      "depth": 6.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-39",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:05:12Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.122383908190265,
+      "depth": 8.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-40",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:05:20Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.12260712655221,
+      "depth": 10.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-41",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:05:28Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.12283034491416,
+      "depth": 11.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-42",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:05:36Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.123053563276105,
+      "depth": 12.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-43",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:05:44Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.123276781638054,
+      "depth": 13.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-44",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:05:52Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.1235,
+      "depth": 13.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-45",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:00Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.123723218361945,
+      "depth": 13.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-46",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:08Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.123946436723894,
+      "depth": 12.8,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-47",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:16Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.12416965508584,
+      "depth": 11.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-48",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:24Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.12439287344779,
+      "depth": 10.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-49",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:32Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.124616091809735,
+      "depth": 8.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-50",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:40Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.124839310171684,
+      "depth": 6.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-51",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:48Z",
+      "latitude": 61.123284405318,
+      "longitude": 24.12506252853363,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-52",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:06:56Z",
+      "latitude": 61.1235,
+      "longitude": 24.12193747146637,
+      "depth": 4.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-53",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:07:04Z",
+      "latitude": 61.1235,
+      "longitude": 24.122160689828316,
+      "depth": 7.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-54",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:07:12Z",
+      "latitude": 61.1235,
+      "longitude": 24.122383908190265,
+      "depth": 9.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-55",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:07:20Z",
+      "latitude": 61.1235,
+      "longitude": 24.12260712655221,
+      "depth": 11.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-56",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:07:28Z",
+      "latitude": 61.1235,
+      "longitude": 24.12283034491416,
+      "depth": 12.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-57",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:07:36Z",
+      "latitude": 61.1235,
+      "longitude": 24.123053563276105,
+      "depth": 13.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-58",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:07:44Z",
+      "latitude": 61.1235,
+      "longitude": 24.123276781638054,
+      "depth": 13.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-59",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:07:52Z",
+      "latitude": 61.1235,
+      "longitude": 24.1235,
+      "depth": 14.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-60",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:00Z",
+      "latitude": 61.1235,
+      "longitude": 24.123723218361945,
+      "depth": 13.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-61",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:08Z",
+      "latitude": 61.1235,
+      "longitude": 24.123946436723894,
+      "depth": 13.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-62",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:16Z",
+      "latitude": 61.1235,
+      "longitude": 24.12416965508584,
+      "depth": 12.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-63",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:24Z",
+      "latitude": 61.1235,
+      "longitude": 24.12439287344779,
+      "depth": 11.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-64",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:32Z",
+      "latitude": 61.1235,
+      "longitude": 24.124616091809735,
+      "depth": 9.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-65",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:40Z",
+      "latitude": 61.1235,
+      "longitude": 24.124839310171684,
+      "depth": 7.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-66",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:48Z",
+      "latitude": 61.1235,
+      "longitude": 24.12506252853363,
+      "depth": 4.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-67",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:08:56Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.12193747146637,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-68",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:09:04Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.122160689828316,
+      "depth": 6.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-69",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:09:12Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.122383908190265,
+      "depth": 8.8,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-70",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:09:20Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.12260712655221,
+      "depth": 10.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-71",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:09:28Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.12283034491416,
+      "depth": 11.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-72",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:09:36Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.123053563276105,
+      "depth": 12.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-73",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:09:44Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.123276781638054,
+      "depth": 13.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-74",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:09:52Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.1235,
+      "depth": 13.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-75",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:00Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.123723218361945,
+      "depth": 13.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-76",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:08Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.123946436723894,
+      "depth": 12.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-77",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:16Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.12416965508584,
+      "depth": 11.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-78",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:24Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.12439287344779,
+      "depth": 10.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-79",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:32Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.124616091809735,
+      "depth": 8.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-80",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:40Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.124839310171684,
+      "depth": 6.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-81",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:48Z",
+      "latitude": 61.123715594682,
+      "longitude": 24.12506252853363,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-82",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:10:56Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.12193747146637,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-83",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:11:04Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.122160689828316,
+      "depth": 5.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-84",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:11:12Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.122383908190265,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-85",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:11:20Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.12260712655221,
+      "depth": 9.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-86",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:11:28Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.12283034491416,
+      "depth": 10.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-87",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:11:36Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.123053563276105,
+      "depth": 11.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-88",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:11:44Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.123276781638054,
+      "depth": 11.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-89",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:11:52Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.1235,
+      "depth": 12.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-90",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:00Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.123723218361945,
+      "depth": 11.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-91",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:08Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.123946436723894,
+      "depth": 11.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-92",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:16Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.12416965508584,
+      "depth": 10.4,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-93",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:24Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.12439287344779,
+      "depth": 9.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-94",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:32Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.124616091809735,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-95",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:40Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.124839310171684,
+      "depth": 5.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-96",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:48Z",
+      "latitude": 61.123931189363994,
+      "longitude": 24.12506252853363,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-97",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:12:56Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.122160689828316,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-98",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:13:04Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.122383908190265,
+      "depth": 5.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-99",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:13:12Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.12260712655221,
+      "depth": 6.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-100",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:13:20Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.12283034491416,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-101",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:13:28Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.123053563276105,
+      "depth": 8.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-102",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:13:36Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.123276781638054,
+      "depth": 9.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-103",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:13:44Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.1235,
+      "depth": 9.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-104",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:13:52Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.123723218361945,
+      "depth": 9.5,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-105",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:00Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.123946436723894,
+      "depth": 8.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-106",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:08Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.12416965508584,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-107",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:16Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.12439287344779,
+      "depth": 6.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-108",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:24Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.124616091809735,
+      "depth": 5.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-109",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:32Z",
+      "latitude": 61.12414678404599,
+      "longitude": 24.124839310171684,
+      "depth": 2.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-110",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:40Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.12260712655221,
+      "depth": 3.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-111",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:48Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.12283034491416,
+      "depth": 4.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-112",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:14:56Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.123053563276105,
+      "depth": 5.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-113",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:15:04Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.123276781638054,
+      "depth": 6.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-114",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:15:12Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.1235,
+      "depth": 6.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-115",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:15:20Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.123723218361945,
+      "depth": 6.1,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-116",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:15:28Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.123946436723894,
+      "depth": 5.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-117",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:15:36Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.12416965508584,
+      "depth": 4.6,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-118",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-1",
+      "timestamp": "2026-09-22T10:15:44Z",
+      "latitude": 61.124362378727994,
+      "longitude": 24.12439287344779,
+      "depth": 3.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-119",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:15:52Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.122383908190265,
+      "depth": 3.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-120",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:00Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.12260712655221,
+      "depth": 5.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-121",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:08Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.12283034491416,
+      "depth": 6.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-122",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:16Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.123053563276105,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-123",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:24Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.123276781638054,
+      "depth": 7.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-124",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:32Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.1235,
+      "depth": 8.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-125",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:40Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.123723218361945,
+      "depth": 7.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-126",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:48Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.123946436723894,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-127",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:16:56Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.12416965508584,
+      "depth": 6.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-128",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:17:04Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.12439287344779,
+      "depth": 5.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-129",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:17:12Z",
+      "latitude": 61.12274541861301,
+      "longitude": 24.124616091809735,
+      "depth": 3.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-130",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:17:20Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.122160689828316,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-131",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:17:28Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.122383908190265,
+      "depth": 6.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-132",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:17:36Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.12260712655221,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-133",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:17:44Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.12283034491416,
+      "depth": 9.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-134",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:17:52Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.123053563276105,
+      "depth": 10.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-135",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:00Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.123276781638054,
+      "depth": 10.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-136",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:08Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.1235,
+      "depth": 11.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-137",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:16Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.123723218361945,
+      "depth": 10.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-138",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:24Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.123946436723894,
+      "depth": 10.3,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-139",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:32Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.12416965508584,
+      "depth": 9.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-140",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:40Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.12439287344779,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-141",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:48Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.124616091809735,
+      "depth": 6.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-142",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:18:56Z",
+      "latitude": 61.122961013295004,
+      "longitude": 24.124839310171684,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-143",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:19:04Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.12193747146637,
+      "depth": 3.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-144",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:19:12Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.122160689828316,
+      "depth": 6.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-145",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:19:20Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.122383908190265,
+      "depth": 8.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-146",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:19:28Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.12260712655221,
+      "depth": 9.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-147",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:19:36Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.12283034491416,
+      "depth": 11.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-148",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:19:44Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.123053563276105,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-149",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:19:52Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.123276781638054,
+      "depth": 12.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-150",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:00Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.1235,
+      "depth": 12.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-151",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:08Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.123723218361945,
+      "depth": 12.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-152",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:16Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.123946436723894,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-153",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:24Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.12416965508584,
+      "depth": 11.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-154",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:32Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.12439287344779,
+      "depth": 9.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-155",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:40Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.124616091809735,
+      "depth": 8.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-156",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:48Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.124839310171684,
+      "depth": 6.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-157",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:20:56Z",
+      "latitude": 61.123176607977,
+      "longitude": 24.12506252853363,
+      "depth": 3.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-158",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:21:04Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.12193747146637,
+      "depth": 4.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-159",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:21:12Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.122160689828316,
+      "depth": 7.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-160",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:21:20Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.122383908190265,
+      "depth": 9.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-161",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:21:28Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.12260712655221,
+      "depth": 10.9,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-162",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:21:36Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.12283034491416,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-163",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:21:44Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.123053563276105,
+      "depth": 13.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-164",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:21:52Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.123276781638054,
+      "depth": 13.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-165",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:00Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.1235,
+      "depth": 13.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-166",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:08Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.123723218361945,
+      "depth": 13.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-167",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:16Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.123946436723894,
+      "depth": 13.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-168",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:24Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.12416965508584,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-169",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:32Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.12439287344779,
+      "depth": 10.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-170",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:40Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.124616091809735,
+      "depth": 9.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-171",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:48Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.124839310171684,
+      "depth": 7.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-172",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:22:56Z",
+      "latitude": 61.123392202659,
+      "longitude": 24.12506252853363,
+      "depth": 4.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-173",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:23:04Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.12193747146637,
+      "depth": 4.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-174",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:23:12Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.122160689828316,
+      "depth": 7.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-175",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:23:20Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.122383908190265,
+      "depth": 9.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-176",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:23:28Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.12260712655221,
+      "depth": 10.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-177",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:23:36Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.12283034491416,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-178",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:23:44Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.123053563276105,
+      "depth": 13.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-179",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:23:52Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.123276781638054,
+      "depth": 13.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-180",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:00Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.1235,
+      "depth": 13.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-181",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:08Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.123723218361945,
+      "depth": 13.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-182",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:16Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.123946436723894,
+      "depth": 13.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-183",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:24Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.12416965508584,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-184",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:32Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.12439287344779,
+      "depth": 10.9,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-185",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:40Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.124616091809735,
+      "depth": 9.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-186",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:48Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.124839310171684,
+      "depth": 7.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-187",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:24:56Z",
+      "latitude": 61.123607797341,
+      "longitude": 24.12506252853363,
+      "depth": 4.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-188",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:25:04Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.12193747146637,
+      "depth": 3.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-189",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:25:12Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.122160689828316,
+      "depth": 6.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-190",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:25:20Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.122383908190265,
+      "depth": 8.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-191",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:25:28Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.12260712655221,
+      "depth": 9.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-192",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:25:36Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.12283034491416,
+      "depth": 11.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-193",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:25:44Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.123053563276105,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-194",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:25:52Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.123276781638054,
+      "depth": 12.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-195",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:00Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.1235,
+      "depth": 12.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-196",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:08Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.123723218361945,
+      "depth": 12.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-197",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:16Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.123946436723894,
+      "depth": 12.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-198",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:24Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.12416965508584,
+      "depth": 11.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-199",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:32Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.12439287344779,
+      "depth": 9.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-200",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:40Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.124616091809735,
+      "depth": 8.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-201",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:48Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.124839310171684,
+      "depth": 6.2,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-202",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:26:56Z",
+      "latitude": 61.123823392023,
+      "longitude": 24.12506252853363,
+      "depth": 3.7,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-203",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:27:04Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.122160689828316,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-204",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:27:12Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.122383908190265,
+      "depth": 6.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-205",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:27:20Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.12260712655221,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-206",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:27:28Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.12283034491416,
+      "depth": 9.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-207",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:27:36Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.123053563276105,
+      "depth": 10.3,
+      "accuracy": 42
+    },
+    {
+      "id": "demo-208",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:27:44Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.123276781638054,
+      "depth": 10.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-209",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:27:52Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.1235,
+      "depth": 11.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-210",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:00Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.123723218361945,
+      "depth": 10.8,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-211",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:08Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.123946436723894,
+      "depth": 10.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-212",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:16Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.12416965508584,
+      "depth": 9.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-213",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:24Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.12439287344779,
+      "depth": 8.0,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-214",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:32Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.124616091809735,
+      "depth": 6.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-215",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:40Z",
+      "latitude": 61.124038986704996,
+      "longitude": 24.124839310171684,
+      "depth": 4.3,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-216",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:48Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.122383908190265,
+      "depth": 3.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-217",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:28:56Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.12260712655221,
+      "depth": 5.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-218",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:29:04Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.12283034491416,
+      "depth": 6.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-219",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:29:12Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.123053563276105,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-220",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:29:20Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.123276781638054,
+      "depth": 7.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-221",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:29:28Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.1235,
+      "depth": 8.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-222",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:29:36Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.123723218361945,
+      "depth": 7.9,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-223",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:29:44Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.123946436723894,
+      "depth": 7.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-224",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:29:52Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.12416965508584,
+      "depth": 6.4,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-225",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:30:00Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.12439287344779,
+      "depth": 5.1,
+      "accuracy": 3.2
+    },
+    {
+      "id": "demo-226",
+      "lakeId": "demo-lake",
+      "sessionId": "demo-session-2",
+      "timestamp": "2026-09-23T10:30:08Z",
+      "latitude": 61.12425458138699,
+      "longitude": 24.124616091809735,
+      "depth": 3.4,
+      "accuracy": 3.2
+    }
+  ],
+  "settings": {
+    "coverageGrid": 13,
+    "coverageRadius": 20,
+    "goodCount": 3,
+    "gpsAccuracy": 35,
+    "radius": 100,
+    "interval": 2,
+    "smoothColors": true,
+    "smoothing": 30
+  }
+}

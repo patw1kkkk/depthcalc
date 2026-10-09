@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#123e42" />
+    <title>DepthCalc — GPS lake depth mapping</title>
+    <meta name="description" content="Create lake depth maps from GPS soundings. Collect measurements with Capture, generate contour charts in Studio, and export PDF or PNG. Free and open source." />
+    <meta property="og:title" content="DepthCalc — Map your lake" />
+    <meta property="og:description" content="GPS + depth measurements → your own bathymetric chart. Try the interactive demo. No account required." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://patw1kkkk.github.io/depthcalc/" />
+    <style>
+      body {
+        font:
+          18px/1.6 system-ui,
+          sans-serif;
+        background: #f4f5ef;
+        color: #183c40;
+        max-width: 760px;
+        margin: 12vh auto;
+        padding: 24px;
+      }
+      h1 {
+        font-size: 54px;
+        letter-spacing: -2px;
+      }
+      p {
+        color: #58706e;
+      }
+      nav {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+      nav a {
+        display: block;
+        flex: 1;
+        min-width: 220px;
+        padding: 24px;
+        background: white;
+        border: 1px solid #ccd6d0;
+        border-radius: 12px;
+        text-decoration: none;
+        color: #176d66;
+      }
+      a:focus-visible {
+        outline: 3px solid #e4a54d;
+      }
+      nav strong {
+        font-size: 24px;
+      }
+      section { margin-top: 32px; }
+      h2 { font-size: 24px; margin-bottom: 12px; }
+      ol { padding-left: 24px; color: #58706e; }
+      li { padding-left: 4px; margin-bottom: 14px; }
+      li strong { color: #183c40; }
+      nav a { box-sizing: border-box; min-width: min(220px, 100%); }
+      small {
+        display: block;
+        color: #58706e;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DepthCalc</h1>
+    <p>
+      An open-source toolkit for creating bathymetric lake maps from GPS + depth
+      measurements.
+    </p>
+    <nav aria-label="DepthCalc tools">
+      <a href="./apps/capture/"
+        ><strong>Capture ↗</strong
+        ><small>Collect measurements on the lake.</small></a
+      ><a href="./apps/studio/"
+        ><strong>Studio ↗</strong
+        ><small>Turn your sessions into coverage and contour maps.</small></a
+      >
+    </nav>
+    <section aria-labelledby="how-it-works">
+      <h2 id="how-it-works">How it works</h2>
+      <ol>
+        <li><strong>Collect with Capture.</strong> Open it on your phone, allow GPS, and start a named session. Enter the depth from your fish finder and tap Add measurement at each location.</li>
+        <li><strong>Save your CSV.</strong> End the session to download your measurements. Keep the file as a backup and transfer it to the device you use for Studio. You can download it again in Capture.</li>
+        <li><strong>Create a map in Studio.</strong> Select your lake on the map, import your session CSV files, then generate a depth map. Adjust the chart settings and export your map.</li>
+      </ol>
+    </section>
+    <p>
+      <small
+        >Local first. No account. Your measurements stay on your device.</small
+      >
+    </p>
+    <p><a href="https://github.com/patw1kkkk/depthcalc" style="color:#176d66">View on GitHub · Feedback &amp; source code ↗</a></p>
+  </body>
+</html>
