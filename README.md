@@ -22,7 +22,16 @@ Two static, client-side applications. No account, application server, cloud data
 
 Coverage shows where soundings are dense and where more measurements are needed. This example uses the real Käyrälampi shoreline with synthetic depth measurements.
 
-![Demo survey coverage with dense boat passes and less-surveyed areas](docs/images/demo-coverage.png)
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/demo-coverage.png" alt="Demo survey coverage with dense boat passes and less-surveyed areas" width="100%" /></td>
+    <td width="50%"><img src="docs/images/coverage-detail.png" alt="Coverage detail showing individual measurement points and colored coverage cells" width="100%" /></td>
+  </tr>
+  <tr>
+    <td>Survey coverage overview</td>
+    <td>Measurement points and local coverage detail</td>
+  </tr>
+</table>
 
 ### Record soundings on your phone
 
